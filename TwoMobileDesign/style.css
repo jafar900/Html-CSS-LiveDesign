@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px 15px 90px;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+.headerLeft img{
+    width: 100%;
+}
+.mobileView{
+    display: none;
+}
+.headerDesktopView{
+    display: flex;
+    gap: 114px;
+    
+}
+/* .headerRight {
+  display: flex;
+  gap: 114px;
+  justify-content: center;
+  align-items: center;
+} */
+.headerRight .NavLink {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.Herowrapper{
+    background-image: url(/assets/Rectangle\ 48.png);
+}
+.hero {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 73px 0 146px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.heroApp {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: #f7f7f7;
+  margin-bottom: 17px;
+}
+
+.heroHeading {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 58px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+.heroDesc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height, or 158% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #f7f7f7;
+  margin-bottom: 54px;
+}
+.heroButtoncontainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.playstoreButton {
+  padding: 10px 50px;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.1px;
+
+  color: #ffffff;
+}
+.appstoreButton {
+  padding: 10px 50px;
+  background: transparent;
+  border: 1px solid white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.1px;
+
+  color: #ffffff;
+  border-radius: 30px;
+}
+/* .responsive{
+    width: 100%;
+} */
+.twoPhone {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -130px;
+}
+.phoneSection {
+  padding: 600px 0 0 0;
+  position: relative;
+}
+.divder hr {
+  margin-right: 278px;
+  margin-left: 278px;
+}
+.appWorkHead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  text-align: center;
+  padding: 72px 0 59px;
+}
+
+.AccountSectionContainer {
+  display: flex;
+  gap: 171px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 78px 154px 50px 245px;
+}
+
+.ItemHighlight {
+  color: #fa4a0c;
+  /* H3 */
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+.ItemHead {
+  color: var(--text, #252b42);
+  /* H2 */
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+.ItemDesc {
+  color: var(--second-text, #737373);
+  /* H4 */
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+.bottomWrapper {
+  background-image: url(/assets/Rectangle\ 47.png);
+}
+
+.hero-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 73px 0 146px;
+}
+.heroHeadingBottom {
+  color: var(--light-text, #fff);
+  text-align: center;
+  /* H2 */
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+
+.heroDescBottom {
+  margin-bottom: 60px;
+  color: #fff;
+  text-align: center;
+  /* H4 */
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.fotterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 115px;
+}
+
+.socialLink {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width:1290px){
+    .headerDesktopView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+
+    .AccountSectionContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 65px 38px;
+    }
+    .fotterContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 130px;
+    }
+    .fotterContainer .BottomLogo{
+        display: none;
+    }
+    .socialLink{
+        margin-bottom: 20px;
+    }
+    .heroButtoncontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        padding: 16px 17px;
+    }
+    .headerLeft img{
+        width: 100%;
+    }
+
+
+}
+@media only screen and (min-width: 280px) and (max-width: 520px) {
+
+  .headerLeft img{
+    width: 140px;
+  }
+
+   .twoPhone img{
+    width: 280px;
+   }
+   .phoneSection{
+    padding: 130px 0 0 0;
+   }
+   
+}

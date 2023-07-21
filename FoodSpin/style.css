@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    max-width: 1440px;
+    max-height: 790px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 105px;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+   
+}
+.img1{
+    position: relative;
+    margin-bottom: 2px;
+}
+.logo .img2{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+}
+
+.pricee{
+    color: #FF922C;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+
+.heading{
+    color: #333;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 138.889% */
+text-transform: capitalize;
+margin-bottom: 12px;
+}
+
+.desc{
+    color: #333;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 28px;
+}
+
+.btn{
+    border-radius: 69px;
+background: #FF922C;
+box-shadow: 0px 20px 40px 0px #F4E2D1;
+padding: 14px 41px;
+border: 1px solid white;
+}
+
+.hero{
+    display: flex;
+    
+    max-width: 1440px;
+    max-height: 790px;
+    margin: 0 auto;
+    padding: 80px 80px 80px 80px;
+    gap: 150px;
+    justify-content:space-around;
+
+}
+.bg{
+   border-radius: 1177px;
+   background: #FFEEDE;
+   width: 70vw;
+ 
+   height: 1177px;
+
+   object-fit: contain;
+   z-index: -1;
+   position: absolute;
+   top: -750px;
+   right: 0px;
+}
+
+.image-circle{
+    border-radius: 400px;
+width: 400px;
+height: 400px;
+flex-shrink: 0;
+border: 2px dashed #E87F1E;
+
+}
+
+.image-circle .img1{
+ 
+    position: absolute;
+    top: 460px;
+    right: 380px;
+    
+    
+}
+
+ .image-circle .img2{
+    position: absolute;
+    top: 270px;
+    right: 420px;
+}
+
+.image-circle .img3{
+    position: absolute;
+    top: 120px;
+    right: 240px;
+}
+
+.image-circle .img4{
+    position: absolute;
+    top: 270px;
+    right: 40px;
+}
+.image-circle .img5{
+    position: absolute;
+    top: 460px;
+    right: 80px;
+}
+
